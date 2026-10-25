@@ -1,0 +1,16 @@
+# Generated data and logs stay on the machine that computed them.
+outputs/
+incoming/
+dataset_png/
+*.log
+*.pid
+__pycache__/
+*.pyc
+.DS_Store
+
+# Compile these from the provided C++ sources on each target machine.
+*.mex
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.oct

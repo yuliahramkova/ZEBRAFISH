@@ -1,0 +1,20 @@
+{
+  "name": "zebrafish_naomi_12000_localbg10_v1",
+  "total_images": 1000,
+  "seed_base": 20263000,
+  "image_shape_yx": [400, 485],
+  "cells": 12000,
+  "nucleus_radius_um": 1.6,
+  "volume_um_yxz": [350, 423, 10],
+  "excitation_na": 0.6,
+  "objective_na": 0.8,
+  "halo_scale": 0.75,
+  "local_background_level": 10,
+  "nuclear_only": true,
+  "vessels": false,
+  "motion": false,
+  "frames_per_seed": 1,
+  "density_prior_file": "density_prior_seed20262001.png",
+  "density_prior_sha256": "ee4c9724722c13cc1413d9be38f83f8e547edd37c3b529f6b840ba57a47dd0b5",
+  "source": "NAOMi simulator with local Octave acceleration and optional cell-derived background. Real Zenodo TIFF is not included."
+}
